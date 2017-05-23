@@ -6,7 +6,7 @@
 /*   By: tmekwa <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/05/23 10:18:54 by tmekwa            #+#    #+#             */
-/*   Updated: 2017/05/23 10:30:06 by tmekwa           ###   ########.fr       */
+/*   Updated: 2017/05/23 12:06:19 by tmekwa           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,12 +28,4 @@ char	*ft_strcat(char *dest, const char *src)
 	}
 	dest[n + i] = '\0';
 	return (dest);
-}
-
-int		main()
-{
-	char a[] = "Lee";
-	char a1[]= "soo";
-	ft_strcat(a, a1);
-	printf("%s", a);
 }
